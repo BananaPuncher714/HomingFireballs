@@ -1,0 +1,26 @@
+name: HomingFireballs
+main: io.github.bananapuncher714.HomingFireballsMain
+version: 1.10
+author: BananaPuncher714
+commands:
+  homingfireballs:
+    description: Turns on/off homing arrows
+    permission: homingfireballs.use
+    aliases: [hf]
+    help:
+      description: Displays the help page
+      permission: homingfireballs.help
+    reload:
+      description: Reloads the config
+      permission: homingfireballs.reload
+
+permissions:
+  homingfireballs.use:
+    description: Allows use of turning on/off homing arrows
+    default: op
+  homingfireballs.help:
+    description: Displays the help page
+    default: op
+  homingfireballs.reload:
+    description: Reloads the config
+    default: op

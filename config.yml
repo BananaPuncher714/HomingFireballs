@@ -1,0 +1,33 @@
+# HOMING FIREBALLS CONFIG
+# Whether to use permissions or not
+use-permissions: false
+
+# The maximum range that you can home
+# Set to -1 to disable
+max-range: -1
+
+# The maximum degree you can home
+# Set to -1 to disable
+degree: 45
+
+# How strong the projectile curves to hit the target.
+# Higher values like 10 will have a very strong curve
+accuracy-percent: .7
+
+# What projectiles are allowed to home
+ghast-fireball: true
+snowball: false
+arrow: true
+egg: false
+potion: false
+blaze-fireball: true
+
+# Whether mobs( blazes, skeleton, ghasts ) and dispensers can home
+mobs-can-aimbot: true
+dispensers-can-home: true
+
+# Whether to home in on mobs and players and whether to target creative people
+# NOTE: ONLY THE WITHER CAN HOME IN ON OTHER MOBS
+home-on-mobs: true
+home-on-players: true
+target-creative-players: false
